@@ -1,0 +1,16 @@
+{
+  "development": {
+    "dialect": "sqlite",
+    "storage": "./database.sqlite",
+    "migrationStorageTableName": "sequelize_meta",
+    "seederStorageTableName": "sequelize_data"
+  },
+  "test": {
+    "dialect": "sqlite",
+    "storage": ":memory:"
+  },
+  "production": {
+    "dialect": "sqlite",
+    "storage": "./database.sqlite"
+  }
+}
